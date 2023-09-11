@@ -11,7 +11,7 @@ import {
   FormButton
 } from "./styles";
 
-export default function Main ({ navigation }){
+export default function Destino ({ navigation }){
   const [destino, setDestino] = useState('');
 
   function handleButon(destino) {
@@ -29,7 +29,7 @@ export default function Main ({ navigation }){
             value={destino}
             onChangeText={setDestino}
           />
-        <FormButton onPress={() => handleButon("123456")}>
+        <FormButton onPress={() => handleButon("Destino")}>
           <ButtonText>Ir</ButtonText>
       </FormButton>
     </FormView>
