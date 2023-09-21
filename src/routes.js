@@ -18,7 +18,7 @@ const Routes = createAppContainer(
       },Destino: {
         screen: Destino,
         navigationOptions: {
-          title: "Home"
+          title: "Destino"
         }
       }
     },    

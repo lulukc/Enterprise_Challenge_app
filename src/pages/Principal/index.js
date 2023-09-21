@@ -16,7 +16,7 @@ export default function Main ({ navigation }){
 
   function handleButon(destino) {
     console.log(destino)
-    // navigation.navigate(destino)
+    navigation.navigate(destino)
   }
 
   return(
@@ -29,7 +29,7 @@ export default function Main ({ navigation }){
             value={destino}
             onChangeText={setDestino}
           />
-        <FormButton onPress={() => handleButon("123456")}>
+        <FormButton onPress={() => handleButon("Destino")}>
           <ButtonText>Ir</ButtonText>
       </FormButton>
     </FormView>

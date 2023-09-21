@@ -35,13 +35,7 @@ export default function Destino ({ navigation }){
     </FormView>
     <BotaoView>
       <Button onPress={() => handleButon("123456")}>
-          <ButtonText>Home</ButtonText>
-      </Button>
-      <Button onPress={() => handleButon("654321")}>
-          <ButtonText>Perfil</ButtonText>
-      </Button>
-      <Button onPress={() => handleButon("654321")}>
-          <ButtonText>Atividades</ButtonText>
+          <ButtonText>Cancelar</ButtonText>
       </Button>
     </BotaoView>
   </View>
