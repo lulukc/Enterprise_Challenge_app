@@ -8,54 +8,61 @@ export const PrincipalView = styled.View`
   width: 100%;
   flex: 1
 `;
-export const FormView = styled.View`
-  flex-direction: row;
-  justify-content: space-between ;
+
+export const LoginView = styled.View`
+  flex-direction: column;
   align-items: center;
-  background-color : #5A6978;
+  background-color : #fff;
+  margin: 15px;
   padding: 30px;
+  border-radius: 6px;
+`;
+
+export const BoasVndas = styled.Text`
+  font-size: 45px;
+  margin: 15px;
+  font-weight: bold;
+`;
+export const Instrucoes = styled.Text`
+  font-size: 16px;
+  margin: 15px;
+  color: #999;
 `;
 
 export const FormInput = styled.TextInput.attrs({
   placeholderTextColor: '#999',
 })`
   align-self: stretch;
+  margin-top: 15px;
   padding: 10px 12px;
   font-size: 16px;
   border: #666;
   border-radius: 4px;
   height: 44px;
-  width: 90%;
-  background-color : #fff;
-`;
-export const FormButton = styled(RectButton)`
-  align-self: stretch;
-  justify-content: center;
-  align-items: center;
-  background: #ee4d64;
-  border-radius: 6px;
-  padding: 10px 12px;
-  
 `;
 
-export const BotaoView = styled.View`
-  flex-direction: row ;
-  align-items: center;
-  background-color : #FFF;
+
+export const ImangemRotas = styled.Image`
+  width: 100%;
+  height: 200px;
 `;
 
-export const Button = styled(RectButton)`
+export const ImangemLogo = styled.Image`
+  width: 100px;
+  height: 100px
+`;
+
+export const SubmitButton = styled(RectButton)`
   align-self: stretch;
+  margin-top: 15px;
   justify-content: center;
   align-items: center;
   background: #ee4d64;
   border-radius: 4px;
-  padding: 12px;
-  height: 100px;
-  width: 145px;
+  padding: 0 12px;
+  height: 44px;
 `;
-
-export const ButtonText = styled.Text`
+export const SubmitButtonText = styled.Text`
   color: #eee;
   font-size: 16px;
   font-weight: bold;

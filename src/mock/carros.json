@@ -1,0 +1,38 @@
+{
+  "data":[
+    {
+      "id": 1,
+      "nome":"UBS Jardim Souza",
+      "endereco":{
+        "lagradouro": "R. Maria José de Souza",
+        "numero":190,
+        "bairro": "Jardim Souza",
+        "CPE" : "04917-080",
+        "municipio": "São Paulo",
+        "estado":"SP"
+      },
+      "localizacao":{
+        "Latitudine": -23.6879357,
+        "Longitudine": -46.7478694
+      },
+      "urlImg":"https://www.encontraermelinomatarazzo.com.br/imgs/imagens-ermelino-matarazzo/ubs-carlos-olivaldo-de-souza-lopes-muniz.jpg"
+    },
+    {
+      "id": 2,
+      "nome":"Drogaria Qualyserver",
+      "endereco":{
+        "lagradouro": "R. Martinho Jacob Kremer",
+        "numero":447,
+        "bairro": "Jardim São francisco",
+        "CPE" : "04918-010",
+        "municipio": "São Paulo",
+        "estado":"SP"
+      },
+      "localizacao":{
+        "Latitudine": -23.687591769567998,
+        "Longitudine": -46.742165292406284
+      },
+      "urlImg":"https://www.encontraermelinomatarazzo.com.br/imgs/imagens-ermelino-matarazzo/ubs-carlos-olivaldo-de-souza-lopes-muniz.jpg"
+    }
+  ]
+}

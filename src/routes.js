@@ -2,13 +2,24 @@ import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 
 import Principal from "./pages/Principal";
-
+import Login from "./pages/Login";
+import Destino from "./pages/Destino";
 
 const Routes = createAppContainer(
   createStackNavigator(
     {
-      Principal: {
-        screen: Principal
+      Login: {
+        screen: Login
+      },Principal: {
+        screen: Principal,
+        navigationOptions: {
+          title: "Home"
+        }
+      },Destino: {
+        screen: Destino,
+        navigationOptions: {
+          title: "Destino"
+        }
       }
     },    
     {

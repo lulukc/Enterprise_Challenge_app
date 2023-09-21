@@ -1,0 +1,19 @@
+{
+  "data":[
+    {
+      "id": 1,
+      "item":"1 - SEPARE NA SUA CASA",
+      "descricao":"Verifique na sua casa a data de vencimento de seus medicamentos. Separe os vencidos e aqueles que você sabe que não serão mais usados."
+    },
+    {
+      "id": 2,
+      "item":"2 - LEVE A UM PONTO DE COLETA",
+      "descricao":"Leve-os com suas respectivas caixas ao um local de coleta e localize uma de nossas estações coletoras."
+    },
+    {
+      "id": 3,
+      "item":"3 - DESCARTE CORRETAMENTE",
+      "descricao":"Na estação coletora siga a orientação de registro, separação, inutilização das embalagens e deposite separadamente nos locais indicados."
+    }
+  ]
+}

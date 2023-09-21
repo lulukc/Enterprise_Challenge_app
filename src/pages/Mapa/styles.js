@@ -1,19 +1,26 @@
 import styled from "styled-components/native";
 import { RectButton } from 'react-native-gesture-handler';
 
-export const PrincipalView = styled.View`
-  flex-direction: column;
-  align-items: center;
-  background-color : #F1F1F1;
-  width: 100%;
-  flex: 1
+export const AvatarImage = styled.Image`
+  width: 54px;
+  height: 54px;
+  border-radius: 4px;
+  border-width: 4px;
+  border-color: #fff;
 `;
+
 export const FormView = styled.View`
   flex-direction: row;
   justify-content: space-between ;
   align-items: center;
   background-color : #5A6978;
   padding: 30px;
+`;
+
+export const BotaoView = styled.View`
+  flex-direction: row ;
+  align-items: center;
+  background-color : #FFF;
 `;
 
 export const FormInput = styled.TextInput.attrs({
@@ -25,23 +32,8 @@ export const FormInput = styled.TextInput.attrs({
   border: #666;
   border-radius: 4px;
   height: 44px;
-  width: 90%;
+  width: 100%;
   background-color : #fff;
-`;
-export const FormButton = styled(RectButton)`
-  align-self: stretch;
-  justify-content: center;
-  align-items: center;
-  background: #ee4d64;
-  border-radius: 6px;
-  padding: 10px 12px;
-  
-`;
-
-export const BotaoView = styled.View`
-  flex-direction: row ;
-  align-items: center;
-  background-color : #FFF;
 `;
 
 export const Button = styled(RectButton)`
